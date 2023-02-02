@@ -1,10 +1,14 @@
 /********** Template CSS **********/
+
 :root {
   --primary: #00B87B;
   --secondary: #314355;
   --light: #F2F2F2;
   --dark: #2C3E50;
 }
+
+
+
 
 #spinner {
   opacity: 0;
@@ -124,19 +128,19 @@
   height: 10px;
   bottom: -4px;
   left: 0;
-  border: 2px solid var(--light);
+  border: 2px solid var(--secondary);
   border-radius: 10px;
 }
 
 .title::after {
   position: absolute;
   content: "";
-  width: 50px;
+  width: 150px;
   height: 2px;
   bottom: 0;
   left: 15px;
   border-radius: 2px;
-  background: var(--light);
+  background: var(--secondary);
 }
 
 .progress {
